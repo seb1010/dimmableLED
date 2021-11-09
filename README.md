@@ -26,5 +26,5 @@ If there is insuffiecient voltage to turn on the LED's, but the ac signal is pro
 
 ### Start Up
  Due to the low pass filter the startup is quite gentle even if the supply rail has a fast edge.
-Shown Below is output current
+Shown below is output current
  <img src="images/StartUp.JPG" width="60%"/>
