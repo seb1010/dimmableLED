@@ -1,6 +1,8 @@
 # Dimmable LEDs
 Low voltage led lights designed to be strung in parallel. The brightness is controlled by amplitude modulation of a 500 Hz signal placed on top of the DC supply rail. 
 
+<img src="images/PCBA.JPG" width="60%"/>
+
 ## Features
 * Output power adjustable from 100mW to 3-5 Watts (depending on how hot you want the junctions)
 * Protection against reverse polarity connection
@@ -8,7 +10,7 @@ Low voltage led lights designed to be strung in parallel. The brightness is cont
 * With proper implementation, resistance of cable has negligable effect on brightness
 * Fast rising startup edges and brief voltage spikes have no major effect
 
-## Theory of Opperation
+## Theory of Operation
 These lights take advantage of the fact that the ac imput impedance of each light is essentially infinite. The wires by comparason have very little impedance so there is negligiable voltage division even with impactical wire lengths.
 
 ### Signal Path
@@ -24,4 +26,5 @@ If there is insuffiecient voltage to turn on the LED's, but the ac signal is pro
 
 ### Start Up
  Due to the low pass filter the startup is quite gentle even if the supply rail has a fast edge.
+Shown Below is output current
  <img src="images/StartUp.JPG" width="60%"/>
